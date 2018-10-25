@@ -1,0 +1,259 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bundle",
+				"bundleId"
+			],
+			[
+				"D",
+				"DESTINATION_DIR"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa in",
+				"Package Control: Install Package"
+			],
+			[
+				"colour",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 182.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/taggames/Desktop/Andy/Python/PyGame/pyPong"
+	],
+	"file_history":
+	[
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/EditorMedia/Metadata/FeatureKillswitches.metadata",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/Assets/Code/NmgIntegration/CSRMarketingManangerDebug.cs",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/Assets/Editor/BossAlien/BuildPipeline/BuildPipelineAndroid.cs",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/Assets/Editor/BossAlien/BuildPipeline/BuildPipelineiOS.cs",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/Assets/Code/NmgIntegration/CSRMarketingManager.cs",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/Assets/Plugins/MoPub/Scripts/ThirdParty/CustomMediationSettings.cs",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/EditorMedia/Marketing/defaultMarketingConfig.txt",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/RacerUnity.csproj",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/Assets/Editor/NmgServices/ServicesBuildProcess.cs",
+		"/Users/taggames/Work/Nitro/TODO_Nitro.txt",
+		"/Users/taggames/Work/Nitro/Nitro.sublime-project",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/Assets/Design/Dev_Unity5/Localisation/Localisation_EN.txt",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/Assets/Editor/BossAlien/Bundler/BundleFilter.cs",
+		"/Applications/SmartSVN 9.3.app/Contents/MacOS/SmartSVN",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/csr2_osx.fsd",
+		"/Users/taggames/Work/Nitro/Tools/JenkinsBuildInstallScript.cs",
+		"/Users/taggames/Work/Nitro/Repo/NativeCode/Google_Gradle/gradle.properties",
+		"/Users/taggames/Work/Nitro/Repo/NativeCode/Google_Gradle/local.properties",
+		"/Users/taggames/Work/Nitro/Repo/NativeCode/Google_Gradle/build.gradle",
+		"/Users/taggames/Work/Nitro/Repo/NativeCode/Google_Gradle/MoPubLibrary/project.properties",
+		"/Users/taggames/Work/Nitro/Repo/NativeCode/Google_Gradle/MoPubLibrary/build.gradle",
+		"/Users/taggames/Work/Nitro/Repo/Builds/Android/dev_unity5_mopub_update_190324_GoogleDev_ETC2/AndroidProject/mopub-support/project.properties",
+		"/Users/taggames/Work/Unity/MoPub/mopub-unity-sdk/mopub-ios-sdk-unity/mopub-ios-sdk-unity/MoPubManager.mm",
+		"/Users/taggames/Work/Unity/MoPub/mopub-unity-sdk/mopub-ios-sdk-unity/mopub-ios-sdk-unity/MoPubBinding.m",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/Assets/Plugins/MoPub/PlatformSpecific/MoPubBinding.cs",
+		"/Users/taggames/Work/Unity/MoPub/mopub-unity-sdk/mopub-ios-sdk-unity/mopub-ios-sdk-unity/MoPubManager.h",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/Assets/Editor/NmgServices/postProcessor.py",
+		"/Users/taggames/Work/Nitro/Repo/RacerUnity/Assets/Editor/preprocessor.args",
+		"/Users/taggames/Work/Goth/Goth/Tools/_PullOBB.command",
+		"/Users/taggames/Work/Goth/Goth/Tools/_PushOBB.command",
+		"/Users/taggames/Work/Goth/Goth/Tools/_BuildProjectJar.command",
+		"/Users/taggames/Work/Goth/Goth/Tools/_GradleBuild.command",
+		"/Users/taggames/Work/BadTouch/Shplat/readme.md",
+		"/Users/taggames/.bash_profile",
+		"/usr/local/bin/python-config",
+		"/Users/taggames/.bash_profile.pysave",
+		"/Users/taggames/Work/Goth/TODO.txt",
+		"/Users/taggames/Work/Goth/TabTale/GitHub/ProjectSettings/UnityConnectSettings.asset",
+		"/Users/taggames/Work/Goth/Goth/Goth/ProjectSettings/UnityConnectSettings.asset",
+		"/Users/taggames/Work/Goth/Goth/Goth/Assets/StreamingAssets/psdk_google.json",
+		"/Users/taggames/Work/Goth/Goth.sublime-project",
+		"/Users/taggames/Work/Spook/Spook.sublime-project",
+		"/Users/taggames/Work/Spook/Spook.sln"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 138.0
+	},
+	"pinned_build_system": "",
+	"project": "pyPong.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"buildpi",
+				"RacerUnity/Assets/Editor/BossAlien/BuildPipeline/BuildPipelineiOS.cs"
+			],
+			[
+				"build and",
+				"RacerUnity/Assets/Editor/BossAlien/BuildPipeline/BuildPipelineAndroid.cs"
+			],
+			[
+				"customme",
+				"RacerUnity/Assets/Plugins/MoPub/Scripts/ThirdParty/CustomMediationSettings.cs"
+			],
+			[
+				"",
+				"RacerUnity/EditorMedia/Metadata/Marketing.metadata"
+			],
+			[
+				"mopubb",
+				"Assets/Plugins/MoPub/PlatformSpecific/MoPubBinding.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 344.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
