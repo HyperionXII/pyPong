@@ -4,7 +4,7 @@ import pygame
 from Debugging import *
 from src.game.Paddle import *
 from src.core.GameObject import GameObject
-from src.utils.Vectors import Vector2
+from src.core.Vectors import Vector2
 
 # Manager for the whole game 
 # 
@@ -22,5 +22,5 @@ class GameManager(GameObject):
 	# 
 	# 
 	def Render(self, _screen):
+		pass
 		# self.screen.blit(self.background, self.background.position)
-    	pass

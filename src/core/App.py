@@ -14,7 +14,6 @@ class App:
         self._running = True
         self._display_surf = None
         self.size = self.weight, self.height = 640, 400
-        self.gameManager = GameManager()
         DebugLog("App init success")
     # Initialise the App
     # 

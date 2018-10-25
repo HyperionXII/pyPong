@@ -8,18 +8,18 @@ from pygame.compat import geterror
 
 __main_dir = os.path.split(os.path.abspath(__file__))[0]
 __resourcePath = os.path.join(__main_dir, 'resources')
-__imagesResourcePath = os.path.join(__main_dir, 'images')
-__soundResourcePath = os.path.join(__main_dir, 'sounds')
+__imagesResourcePath = os.path.join(__main_dir, '..', '..', 'images')
+__soundResourcePath = os.path.join(__main_dir, '..\..\sounds')
 
 #  Load an Image
 # 
 def load_image(name, colorkey=None):
-    fullname = os.path.join(__resourcePath, __imagesResourcePath, name)
+    fullname = os.path.join(__imagesResourcePath, name)
     try:
         image = pygame.image.load(fullname)
-    except (pygame.error, message):
-        print ('Cannot load image:', name)
-        raise(SystemExit, message)
+    except pygame.error as message:
+        print('Cannot load image:', name)
+        raise SystemExit(message)
     image = image.convert()
     if colorkey is not None:
         if colorkey is -1:
@@ -34,10 +34,10 @@ def load_sound(name):
         def play(self): pass
     if not pygame.mixer:
         return NoneSound()
-    fullname = os.path.join(__resourcePath, __soundResourcePath, name)
+    fullname = os.path.join(__soundResourcePath, name)
     try:
         sound = pygame.mixer.Sound(fullname)
-    except (pygame.error, message):
-        print ('Cannot load sound:', wav)
-        raise (SystemExit, message)
+    except pygame.error as message:
+        print('Cannot load sound:', name)
+        raise SystemExit(message)
     return sound
