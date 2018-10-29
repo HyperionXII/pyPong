@@ -3,3 +3,10 @@
 # ===============
 # Folders
 **/__pycache__/
+
+# Files
+misc.xml
+modules.xml
+pyPong.iml
+vcs.xml
+workspace.xml
