@@ -14,14 +14,24 @@ class Paddle(pygame.sprite.Sprite):
         self._image, self._rect = load_image('paddle.png')
         self._score = 0
         self._surface = surface
+        self._speed = 5
+        self._pos = [0, 0]
         DebugLog("New Paddle Created")
-
-    # Get Paddle Score
-    #
-    def GetScore(self):
-        return self._score
 
     # Render the paddle
     #
-    def Render(self):
-        self._surface.blit(self._image, self._rect)
+    def render(self):
+        self._surface.blit(self._image, self._pos)
+
+    # Move the paddle up
+    #
+    def move_up(self):
+        self._pos[1] = self._pos[1] - self._speed
+
+    def move_down(self):
+        self._pos[1] = self._pos[1] + self._speed
+
+    # Get Paddle Score
+    #
+    def get_score(self):
+        return self._score

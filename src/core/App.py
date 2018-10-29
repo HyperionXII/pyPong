@@ -29,6 +29,8 @@ class App:
     def on_event(self, event):
         if event.type == pygame.QUIT:
             self._running = False
+        else:
+            self.gameManager.process_event(event)
     # App Update 
     # 
     def on_loop(self):

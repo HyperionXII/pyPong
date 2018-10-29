@@ -12,6 +12,7 @@ __resourcePath = os.path.join(__main_dir, 'resources')
 __imagesResourcePath = os.path.join(__resourcePath, 'images')
 __soundResourcePath = os.path.join(__resourcePath, 'sounds')
 
+
 #  Load an Image
 # 
 def load_image(name, colorkey=None):
@@ -25,15 +26,17 @@ def load_image(name, colorkey=None):
     image = image.convert()
     if colorkey is not None:
         if colorkey is -1:
-            colorkey = image.get_at((0,0))
+            colorkey = image.get_at((0, 0))
         image.set_colorkey(colorkey, RLEACCEL)
     return image, image.get_rect()
+
 
 # Load a SFX
 # 
 def load_sound(name):
     class NoneSound:
         def play(self): pass
+
     if not pygame.mixer:
         return NoneSound()
     fullname = os.path.join(__soundResourcePath, name)
