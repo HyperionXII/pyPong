@@ -36,7 +36,7 @@ class App:
     # App Render 
     # 
     def on_render(self):
-        self.gameManager.Render()
+        self.gameManager.Render(self._display_surf)
         pygame.display.flip()
     # Clean-up when the app is closing 
     # 

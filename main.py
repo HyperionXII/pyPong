@@ -1,12 +1,11 @@
 #!flask/bin/python
 
-from Debugging import *
 from src.core.App import *
- 
-# Entry
-# 
-if __name__ == "__main__" :
-	DebugLog("Hello, World!")
 
-	theApp = App()
-	theApp.on_execute()
+VERSION = "0.1"
+ 
+# Program entry
+# 
+if __name__ == "__main__":
+    theApp = App()
+    theApp.on_execute()
