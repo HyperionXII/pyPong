@@ -15,5 +15,5 @@ class Background(pygame.Surface):
 
     # Render the background
     #
-    def Render(self):
+    def render(self):
         self._screen.blit(self._background, (0, 0))

@@ -9,13 +9,13 @@ from src.utils.ResourceUtils import *
 # Paddle class
 # 
 class Paddle(pygame.sprite.Sprite):
-    def __init__(self, surface):
+    def __init__(self, surface, xPos):
         pygame.sprite.Sprite.__init__(self)  # call Sprite initializer
         self._image, self._rect = load_image('paddle.png')
         self._score = 0
         self._surface = surface
         self._speed = 5
-        self._pos = [0, 0]
+        self._pos = [xPos, surface.get_rect().height * 0.5]
         DebugLog("New Paddle Created")
 
     # Render the paddle

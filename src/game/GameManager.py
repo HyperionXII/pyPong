@@ -1,6 +1,8 @@
-from src.game.Paddle import *
 from src.core.GameObject import GameObject
 from src.game.Background import *
+from src.game.Ball import *
+from src.game.Paddle import *
+
 
 # Manager for the whole game
 #
@@ -9,9 +11,10 @@ class GameManager(GameObject):
     # Ctor.
     #
     def __init__(self, screen):
-        self.__screen = screen
-        self.__paddle1 = Paddle(screen)
-        self.__background = Background(screen)
+        self._screen = screen
+        self._paddle1 = Paddle(screen, 10)
+        self._ball = Ball(screen)
+        self._background = Background(screen)
         DebugLog("New GameManager Created")
 
     # Handle events passed from pyGame
@@ -22,9 +25,9 @@ class GameManager(GameObject):
             return
         elif event.type == KEYDOWN:
             if event.key == K_UP:
-                self.__paddle1.move_up()
+                self._paddle1.move_up()
             if event.key == K_DOWN:
-                self.__paddle1.move_down()
+                self._paddle1.move_down()
         elif event.type == KEYUP:
             pass
             # if event.key == K_UP or event.key == K_DOWN:
@@ -34,10 +37,12 @@ class GameManager(GameObject):
     # Called once per frame
     #
     def update(self):
-        self.__paddle1.update()
+        self._ball.update()
+        self._paddle1.update()
 
     # Render
     #
-    def Render(self, _screen):
-        self.__background.Render()  # Always render the background first
-        self.__paddle1.render()
+    def Render(self,):
+        self._background.render()  # Always render the background first
+        self._paddle1.render()
+        self._ball.render()

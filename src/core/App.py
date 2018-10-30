@@ -34,11 +34,11 @@ class App:
     # App Update 
     # 
     def on_loop(self):
-        self.gameManager.Update()
+        self.gameManager.update()
     # App Render 
     # 
     def on_render(self):
-        self.gameManager.Render(self._display_surf)
+        self.gameManager.Render()
         pygame.display.flip()
     # Clean-up when the app is closing 
     # 

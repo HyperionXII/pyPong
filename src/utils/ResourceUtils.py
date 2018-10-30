@@ -16,7 +16,6 @@ __soundResourcePath = os.path.join(__resourcePath, 'sounds')
 #  Load an Image
 # 
 def load_image(name, colorkey=None):
-    print(__main_dir)
     fullname = os.path.join(__imagesResourcePath, name)
     try:
         image = pygame.image.load(fullname)
