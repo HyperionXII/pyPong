@@ -19,6 +19,8 @@ class App:
     # 
     def on_init(self):
         pygame.init()
+        self._clock = pygame.time.Clock()
+        self._clock.tick(60)    # Cap game at 60 fps
         self._display_surf = pygame.display.set_mode(self.size, pygame.HWSURFACE | pygame.DOUBLEBUF)
         pygame.display.set_caption('pyPong')
         pygame.mouse.set_visible(0)
